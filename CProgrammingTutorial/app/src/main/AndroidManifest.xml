@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.cprogrammingtutorial">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/c"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/c"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OptionShowActivity" />
+        <activity android:name=".TutorialListActivity" />
+        <activity android:name=".ProgramListActivity" />
+        <activity android:name=".QuestionActivity" />
+        <activity android:name=".HelloWorldActivity" />
+        <activity android:name=".IntroductionActivity" />
+        <activity android:name=".PrintIntegerActivity" />
+        <activity android:name=".ProgramShowActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".TutorialShowActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".VideoPlayActivity"></activity>
+    </application>
+
+</manifest>

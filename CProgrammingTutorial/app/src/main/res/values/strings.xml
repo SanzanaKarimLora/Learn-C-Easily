@@ -1,0 +1,271 @@
+<resources>
+    <string name="app_name">Learn C Easily</string>
+    <string name="tutorial_btn"> Tutorial</string>
+    <string name="program_btn">Program</string>
+    <string name="question_btn">Frequently asked question</string>
+    <string name="settings_btn">Settings</string>
+    <string name="help_btn">Frequently asked question</string>
+
+    <string-array name="tutorial_list_header">
+
+        <item>1. Introduction</item>
+        <item>2. Advantages of C</item>
+        <item>3. An Example of C Program</item>
+        <item>4. Variables and Operators</item>
+        <item>5. Input and Output</item>
+        <item>6. Flow of Control</item>
+        <item>7. Functions</item>
+        <item>8. Scope, Blocks and Variables</item>
+        <item>9. Arrays, Pointer and String</item>
+        <item>10. Structure and Union</item>
+        <item>11. Files</item>
+        <item>12. Preprocessor Directives</item>
+
+    </string-array>
+
+
+    <string-array name="tutorial_list_child">
+
+        <item>1.1 Introduction</item>
+        <item>2.1 Advantages of C</item>
+        <item>3.1 Structure of program</item>
+        <item>4.1 Variables</item>
+        <item>4.2 Operators</item>
+        <item>5.1 Formatted IO - printf and scanf</item>
+        <item>5.2 Character IO - getchar and putchar</item>
+        <item>6.1 Conditional branching - if</item>
+        <item>6.2 Conditional selection - switch</item>
+        <item>6.3 Loops - while and for</item>
+        <item>6.4 Break and continue</item>
+
+
+    </string-array>
+
+
+    <array name="program_name">
+
+        <item>Hello World</item>
+        <item>Print Integer</item>
+        <item>Addition of two numbers</item>
+        <item>Area of circle</item>
+        <item>Odd or even</item>
+        <item>Add n numbers</item>
+        <item>Add digits</item>
+        <item>Greatest of 3 numbers</item>
+        <item>Sum of Even and Odd of a Number</item>
+        <item>Nested if else</item>
+        <item>Leap year</item>
+        <item>Prime Number</item>
+        <item>Fibonacci series</item>
+        <item>Bubble sort</item>
+    </array>
+
+    <string name="introduction_name">
+        C is a procedural programming language. It was initially developed by Dennis Ritchie between 1969 and 1973. It was mainly developed as a system programming language to write operating system. The main features of C language include low-level access to memory, simple set of keywords, and clean style, these features make C language suitable for system programming like operating system or compiler development.
+        \n \n
+        Many later languages have borrowed syntax/features directly or indirectly from C language. Like syntax of Java, PHP, JavaScript and many other languages is mainly based on C language. C++ is nearly a superset of C language (There are few programs that may compile in C, but not in C++).
+    </string>
+
+
+    <string-array name="FAQ_header">
+        <item> 1. What is the use of global variable ?</item>
+        <item> 2. When a switch statement is better than multiple if statement?</item>
+        <item> 3. What is a structure ?</item>
+        <item> 4. What is the difference between array and structure ? </item>
+        <item> 5. What is Operator, Operand and Expression in C ? </item>
+        <item> 6. What is the difference between arrays and pointers ?</item>
+        <item> 7. What is the difference between arrays and linked list ?</item>
+        <item> 8. What is the difference between strings and character arrays ?</item>
+        <item> 9. What are the library functions ?</item>
+        <item> 10.What is static memory allocation ?</item>
+        <item> 11.What is dynamic memory allocation ?</item>
+    </string-array>
+
+    <string-array name="FAQ_child">
+
+        <item>
+           In computer programming, a global variable is a variable with global scope, meaning that it is visible (hence accessible) throughout the program, unless shadowed. The set of all global variables is known as the global environment or global state. In compiled languages, global variables are generally static variables, whose extent (lifetime) is the entire runtime of the program, though in interpreted languages (including command-line interpreters), global variables are generally dynamically allocated when declared, since they are not known ahead of time.
+
+        </item>
+
+        <item>
+            The switch statement is better than multiple if statements when there are more than two alternatives to be selected whether the case value  matches to the variable of either character or integer type.
+
+        </item>
+
+        <item>
+            Arrays allow to define type of variables that can hold several data items of the same kind. Similarly structure is another user defined data type available in C that allows to combine data items of different kinds.
+
+        </item>
+
+        <item>
+            An array is a collection of related data elements of the same type. But Structure can have elements of different  types.
+        </item>
+
+        <item>
+            An operator is a symbol which operates on a value or a variable. For example: + is an operator to perform addition.
+            \n
+             Operands are the objects that are manipulated and operators are the symbols that represent specific actions.
+            \n
+            In programming, an expression is any legal combination of symbols that represents a value. Each programming language and application has its own rules for what is legal and illegal. For example, in the C language x+5 is an expression
+
+        </item>
+
+        <item>
+             A pointer is a place in memory that keeps the address of another place inside. An array is a single, pre-allocated chunk of contiguous elements (all of the same type), fixed in size and location.
+
+        </item>
+
+        <item>
+            The major difference between Array and Linked list regards to their structure. Arrays are index based data structure where each element associated with an index. On the other hand, Linked list relies on references where each node consists of the data and the references to the previous and next element.
+
+        </item>
+
+        <item>
+            In C these are almost the same, though a string will have an additional null character at the end. In other languages (Java, C# etc), a string is an object, whereas a character array is an array of ... chars (which are primitive data types).
+
+        </item>
+
+        <item>
+            The C language is accompanied by a number of standard library functions which carry out various useful tasks. In particular, all input and output operations (e.g., writing to the terminal) and all math operations (e.g., evaluation of sines and cosines) are implemented by library functions.
+
+        </item>
+
+        <item>
+            In general, static memory allocation is the allocation of memory at compile time, before the associated program is executed, unlike dynamic memory allocation or automatic memory allocation where memory is allocated as required at run time.
+
+        </item>
+
+        <item>
+            C dynamic memory allocation refers to performing manual memory management for dynamic memory allocation in the C programming language via a group of functions in the C standard library, namely malloc, realloc, calloc and free. Their performance varies in both execution time and required memory.
+        </item>
+    </string-array>
+
+
+    <string-array name="tut_child">
+        <item>
+            A structure is a user defined data type in C/C++. A structure creates a data type that can be used to group items of possibly different types into a single type.
+            \n\n
+            To define a structure, you must use the struct statement. The struct statement defines a new data type, with more than one member. The format of the struct statement is as follows −
+            \n\n\n
+            struct [structure tag] {
+            \n
+           member definition;
+           \nmember definition;
+           \n...
+           \nmember definition;
+           \n} [one or more structure variables];
+        </item>
+
+        <item>
+            A union is a special data type available in C that allows to store different data types in the same memory location. You can define a union with many members, but only one member can contain a value at any given time. Unions provide an efficient way of using the same memory location for multiple-purpose.
+            \n\n
+            To define a union, you must use the union statement in the same way as you did while defining a structure. The union statement defines a new data type with more than one member for your program. The format of the union statement is as follows −
+            \n\n\n
+            union [union tag] {\n
+                   member definition;\n
+                   member definition;\n
+                   ...\n
+                  member definition;\n
+            } [one or more union variables];  \n
+        </item>
+
+        <item>
+            C programming has several in-built library functions to perform input and output tasks.\n\n
+
+Two commonly used functions for I/O (Input/Output) are printf() and scanf().\n\n
+
+The scanf() function reads formatted input from standard input (keyboard) whereas the printf() function sends formatted output to the standard output (screen).
+        </item>
+
+        <item>
+            The int getchar(void) function reads the next available character from the screen and returns it as an integer. This function reads only single character at a time. You can use this method in the loop in case you want to read more than one character from the screen.
+            \n\n
+            The int putchar(int c) function puts the passed character on the screen and returns the same character. This function puts only single character at a time. You can use this method in the loop in case you want to display more than one character on the screen.
+        </item>
+
+        <item>
+            A Block is a set of statements enclosed within left and right braces ({ and } respectively). Blocks may be nested in C (a block may contain other blocks inside it). A variable declared in a block is accessible in the block and all inner blocks of that block, but not accessible outside the block.
+        </item>
+        <item>
+            A declaration introduces an identifier and describes its type, be it a type, object, or function. A declaration is what the compiler needs to accept references to that identifier. These are declarations:
+
+        </item>
+        <item>
+            int main()\n
+{\n
+    printf() displays the string inside quotation\n
+   printf("Hello, World!");\n
+   return 0;\n
+}
+        </item>
+        <item>
+            A function is a block of code that performs a specific task.\n\n
+
+Suppose, a program related to graphics needs to create a circle and color it depending upon the radius and color from the user. You can create two functions to solve this problem:
+\n\n
+create a circle function
+color function
+Dividing complex problem into small components makes program easy to understand and use.
+        </item>
+        <item>
+            Return Type − A function may return a value. The return_type is the data type of the value the function returns. Some functions perform the desired operations without returning a value. In this case, the return_type is the keyword void.
+\n\n
+Function Name − This is the actual name of the function. The function name and the parameter list together constitute the function signature.
+\n\n
+Parameters − A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter. This value is referred to as actual parameter or argument. The parameter list refers to the type, order, and number of the parameters of a function. Parameters are optional; that is, a function may contain no parameters.
+\n\n
+Function Body − The function body contains a collection of statements that define what the function does.
+        </item>
+        <item>
+            The C standard library or libc is the standard library for the C programming language, as specified in the ANSI C standard.[1] It was developed at the same time as the C library POSIX specification, which is a superset of it.[2][3] Since ANSI C was adopted by the International Organization for Standardization,[4] the C standard library is also called the ISO C library.
+\n\n
+The C standard library provides macros, type definitions and functions for tasks such as string handling, mathematical computations, input/output processing, memory management, and several other operating system services.
+        </item>
+
+        <item>
+            Like most programming languages, C is able to use and process named variables and their contents. Variables are simply names used to refer to some location in memory – a location that holds a value with which we are working.
+
+It may help to think of variables as a placeholder for a value.\n\n You can think of a variable as being equivalent to its assigned value. So, if you have a variable i that is initialized (set equal) to 4, then it follows that i + 1 will equal 5.
+        </item>
+        <item>
+            An operator is a symbol that tells the compiler to perform specific mathematical or logical functions. C language is rich in built-in operators and provides the following types of operators −
+
+\nArithmetic Operators
+\nRelational Operators
+\nLogical Operators
+\nBitwise Operators
+\nAssignment Operators
+\nMisc Operators
+
+        </item>
+        <item>
+            Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+        </item>
+        <item>
+            Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+        </item>
+        <item>
+            Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+        </item>
+        <item>
+            Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+        </item>
+
+
+    </string-array>
+
+
+    <string name="description">
+        \n
+        Developed by:\n
+        Sanzana Karim Lora\n\n
+    </string>
+    <string name="ref">
+
+        References/Resources:\n
+        Text tutorial : From Internet\n
+        Video tutorial : thenewboston
+    </string>
+
+</resources>

@@ -1,0 +1,1 @@
+This project is an android app called "Learn C Easily". It is a tutorial type app by which anyone can learn the basic of C programming language.

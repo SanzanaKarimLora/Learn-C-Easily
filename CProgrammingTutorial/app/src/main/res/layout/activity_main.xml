@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/MediumTurquoise"
+    android:gravity="center"
+    tools:context="com.example.user.cprogrammingtutorial.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/c2"
+        android:layout_marginBottom="30dp"
+       />
+
+
+
+    <TextView
+        android:id="@+id/nameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By : Sanzana Karim Lora"
+        android:textStyle="italic"
+        android:textColor="@color/DarkBlue"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>

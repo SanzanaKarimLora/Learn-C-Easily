@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="@color/DarkCyan"
+    tools:context="com.example.user.cprogrammingtutorial.OptionShowActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+        <Button
+            android:id="@+id/tutorialBtnID"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:text="@string/tutorial_btn"
+            android:drawableTop="@drawable/tutorial2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="false"
+            android:background="@color/White"
+
+            />
+
+        <Button
+            android:id="@+id/programBtnID"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:text="@string/program_btn"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:drawableTop="@drawable/progm"
+            android:textAllCaps="false"
+            android:background="@color/White"
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/quesBtnID"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:text="@string/question_btn"
+            android:drawableTop="@drawable/question2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="false"
+            android:background="@color/White"
+            />
+        <Button
+            android:id="@+id/contactBtnID"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:text="Contact Us"
+            android:drawableTop="@drawable/mail"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginRight="30dp"
+            android:textAllCaps="false"
+            android:background="@color/White"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

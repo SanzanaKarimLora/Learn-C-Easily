@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/DarkOliveGreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/helloID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Print Integer"
+        android:textSize="30sp"
+        android:textColor="@color/Crimson"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/print_integer_code"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/print_integer_output"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
